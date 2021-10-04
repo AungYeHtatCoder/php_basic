@@ -43,7 +43,7 @@ function val($data) {
 				<td><input type="text" name="name" maxlength="50">
 				</td>
 			<tr>
-				<td>Website</td>
+			<td>Website</td>
 				<td><input type="text" name="website" maxlength="50"></td>
 			</tr>
 			<td>position</td>
