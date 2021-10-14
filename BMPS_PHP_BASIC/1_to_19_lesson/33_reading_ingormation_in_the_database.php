@@ -10,8 +10,8 @@
 		if ($username && $password) {
 			$query = "INERT INTO users(username , password) VALUES
 			('$username','$password)";
-			equery .="VALUES ('$username','$password";
-			mysqli_query($connect,$query);
+			$equery .="VALUES ('$username','$password";
+			$rmysqli_query($connect,$query);
 
 			if (!$result) {
 				die('Query Failed');
